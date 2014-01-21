@@ -3,6 +3,7 @@ Useful if you want to know if there is a correlation between your computer dying
 
 ## Creating a cronjob
 Logging the temperature every minute:
+
     crontab -e
 And then append `*/1 * * * * python /absolute/path/to/temp-log/log-temp.py` to your cronjob file and save it.
 
