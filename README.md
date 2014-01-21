@@ -1,5 +1,6 @@
 # Readme
 Useful if you want to know if there is a correlation between your computer dying all the time and the temperature of your cpu.  
+_log-temp.py_ will write the temperature of one of your CPUs and the time to a file when it is executed.  
 _plot-temp.py_ will show a graph of the temperature of the last 24 hours. Vertical lines represent time gaps which could be interpreted as shutdowns.
 
 ## Creating a cronjob
